@@ -19,7 +19,7 @@ export default function Balance(){
         getBal();
     }, [wallet]);
     
-    return <div className="text-center">
-        <div>Balance {bal}</div>
+    return <div className="text-center border border-gray-700 rounded-2xl p-2">
+        <div>Balance {bal} SOL</div>
     </div>
 }

@@ -15,11 +15,11 @@ export default function RequestAirdrop() {
         alert('done');
     }
 
-    return <div className="flex flex-col items-center gap-3">
+    return <div className="flex flex-col items-center gap-3 border border-gray-700 rounded-2xl p-2">
         <div>
             Airdrop
         </div>
-        <input type="text" placeholder="Amount" className="border border-white p-1"  onChange={(e)=>setAmt(Number(e.target.value))}/>
+        <input type="text" placeholder="Amount" className="border border-gray-700 p-1 rounded-lg"  onChange={(e)=>setAmt(Number(e.target.value))}/>
 
         <button className="bg-gray-600 p-2 rounded-md cursor-pointer" onClick={getSol}>Get SOL</button>
 
