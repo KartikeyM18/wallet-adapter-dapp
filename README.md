@@ -16,3 +16,23 @@ npm install --save \
     @solana/web3.js \
     react
 ```
+
+### For Launchpad
+
+Spl dependency:
+```shell
+npm install @solana/spl-token
+```
+
+Adding Buffer:
+```shell
+npm install --save-dev vite-plugin-node-polyfills
+```
+
+Update ```vite.config.ts```
+```ts
+import { nodePolyfills } from 'vite-plugin-node-polyfills'
+export default defineConfig({
+    plugins: [react(), nodePolyfills(),],
+})
+```

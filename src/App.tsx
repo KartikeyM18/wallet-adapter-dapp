@@ -12,6 +12,7 @@ import RequestAirdrop from './components/RequestAirdrop';
 import Balance from './components/Balance';
 import SendSol from './components/SendSol';
 import SignMessage from './components/SignMessage';
+import TokenLaunchpad from './components/TokenLaunchpad';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
                             <Balance />
                             <SendSol />
                             <SignMessage />
+                            <TokenLaunchpad />
                         </div>
                     </div>
 
